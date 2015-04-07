@@ -5,6 +5,11 @@
    Warning: This is still experimental and things may be changed drastically.
    If you have ideas, comments, bug reports, etc., please report them to
    Christian Thomsen (chr@cs.aau.dk)
+
+   Useful sample code can be found at: http://people.cs.aau.dk/~chr/pygrametl/exaprogs.zip
+
+   The following link contains an ACM proceedings document that can be obtained
+   for a fee of $15: http://dl.acm.org/citation.cfm?id=1651301
 """
 
 # Copyright (c) 2011-2014, Aalborg University (chr@cs.aau.dk)

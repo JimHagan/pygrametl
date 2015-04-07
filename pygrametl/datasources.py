@@ -365,6 +365,8 @@ class FilteringSource(object):
 
     """A source that applies a filter to another source"""
 
+    # This seems a tad wonky to me?  Seems there should be a default
+    # filter method that returns to true (or maybe a lambda)?
     def __init__(self, source, filter=bool):
         """Arguments:
            - source: the source to filter

@@ -12,7 +12,7 @@
    r[n[a]].  This is practical if attribute names in the considered rows and
    DW tables differ. If, for example, data is inserted into an order dimension
    in the DW that has the attribute order_date, but the source data uses the
-   attribte name date, we can use a name mapping from order_date to date:
+   attribute name date, we can use a name mapping from order_date to date:
    dim.insert(row=..., namemapping={'order_date':'date'})
 """
 

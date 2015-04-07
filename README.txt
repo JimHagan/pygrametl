@@ -1,3 +1,5 @@
+<h3>pygrametl - Flashnotes R&D Version</h3>
+
 pygrametl (pronounced py-gram-e-t-l) is a Python framework which offers commonly used functionality for development of Extract-Transform-Load (ETL) processes.
 
 pygrametl allows developers to code the ETL process in Python code, instead of drawing it using a graphical user interface. In order to facilitate this, pygrametl provides object oriented abstractions for commonly used operations, such as providing a uniform interface to data from various sources, performing data processing in parallel, maintaining slowly changing dimensions, or creating snowflake schemas.

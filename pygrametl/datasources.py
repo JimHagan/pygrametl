@@ -102,7 +102,7 @@ class SQLSource(object):
                     names = self.names or \
                         [t[0] for t in self.cursor.description]
             while True:
-                data = self.cursor.fetchmany(500)
+                data = self.cursor.fetchmany(500) # consider a variable
                 if not data:
                     break
                 if not names:
